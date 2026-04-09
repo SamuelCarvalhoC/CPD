@@ -1,4 +1,4 @@
-"(&#39;Algoritmo&#39;, &#39;&#39;)","(&#39;Versão&#39;, &#39;&#39;)","(1000, &#39;Aleatória&#39;)","(1000, &#39;Invertida&#39;)","(1000, &#39;Ordenada&#39;)","(5000, &#39;Aleatória&#39;)","(5000, &#39;Invertida&#39;)","(5000, &#39;Ordenada&#39;)","(10000, &#39;Aleatória&#39;)","(10000, &#39;Invertida&#39;)","(10000, &#39;Ordenada&#39;)"
+Algoritmo,Versão,1000 Aleatória,1000 Invertida,1000 Ordenada,5000 Aleatória,5000 Invertida,5000 Ordenada,10000 Aleatória,10000 Invertida,10000 Ordenada
 Bubble Sort,Clássico,0.08735,0.06756,0.05403,1.34641,1.75218,1.97373,7.02389,8.37116,4.77498
 Bubble Sort,Otimizado,0.08238,0.11726,0.00013,2.50834,1.77398,0.0006,5.82014,7.66403,0.00071
 Insertion Sort,Clássico,0.02137,0.09962,0.00022,0.82778,1.17273,0.00093,2.52472,6.41734,0.00117
