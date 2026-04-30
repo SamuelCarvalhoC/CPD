@@ -19,3 +19,36 @@ def build_heap(arr):
         heapify(arr, n, i)
 
   
+def merge_sor(arr)
+    if len(arr) <= 1:
+        return arr
+    meio = lista // 2
+    esquerda = mergesort(lista[:meio])
+    direita = mergesort(lista[:meio])
+    return merge(esquerda, direita)
+
+def merge(esq, dir)
+    lista = []
+    j = i = 0
+    while i < len(dir) and j < len(esq):
+        if dir[i] < esq[j]:
+            lista.append(dir[i])
+            i += 1
+        if esq[j] < dir[i]
+            lista.append(esq[j])
+            j+=1
+    return lista
+
+def quicksort(arr):
+    if len(arr) < 2:
+        return arr
+    maiores=[]
+    menores=[]
+    pivo=arr[0]
+    for i in arr[1:]:
+        if i>pivo:
+        maiores.append(i)
+        if i<=pivo:
+        menores.append(i)
+    return quicksort(menores) + [pivo] + quicksort(maiores)
+
